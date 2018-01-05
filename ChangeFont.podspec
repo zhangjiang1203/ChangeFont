@@ -7,9 +7,9 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'ChangeFont'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of ChangeFont.'
+  s.name             = 'ChangeFontSize'
+  s.version          = '0.0.1'
+  s.summary          = '全局适配控件字体的大小'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,12 +21,12 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/zhangjiang/ChangeFont'
+  s.homepage         = 'https://github.com/zhangjiang1203/ChangeFont'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'zhangjiang' => 'zhangjiang@shanlinjinrong.com' }
-  s.source           = { :git => 'https://github.com/zhangjiang/ChangeFont.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { 'zhangjiang' => '896884553@qq.com' }
+  s.source           = { :git => 'https://github.com/zhangjiang1203/MyOftenUseTool.git', :tag => s.version.to_s }
+
 
   s.ios.deployment_target = '8.0'
 
@@ -37,6 +37,6 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

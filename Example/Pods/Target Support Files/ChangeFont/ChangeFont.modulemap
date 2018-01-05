@@ -1,0 +1,6 @@
+framework module ChangeFont {
+  umbrella header "ChangeFont-umbrella.h"
+
+  export *
+  module * { export * }
+}
