@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ChangeFont'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = '全局适配控件字体的大小'
 
 # This description is used to generate tags and improve search results.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+全局适配控件字体的大小,根据屏幕的大小取一个比例
                        DESC
 
   s.homepage         = 'https://github.com/zhangjiang1203/ChangeFont'
